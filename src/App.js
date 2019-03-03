@@ -17,11 +17,11 @@ class App extends Component {
         <Home/>
         {/* <NavSection/> */}
         {/* <Slider/> */}
-        {/*<Jumbotron/>*/}
-         {/*<BriefInfo/>*/}
-         {/*<ProductionSection/>*/}
-         {/*<Connect/>*/}
-         {/*<Footer/>*/}
+        <Jumbotron/>
+         <BriefInfo/>
+         <ProductionSection/>
+         <Connect/>
+         <Footer/>
       </div>
     );
   }
