@@ -1,6 +1,7 @@
 import React from 'react';
 import TransparentNavbar from '../../molecules/TransparentNavbar';
 import BgSlider from "../../molecules/BgSlider";
+import WelcomeScreen from "../../molecules/WelcomeScreen";
 
 class Home extends React.Component {
     constructor(props) {
@@ -18,7 +19,8 @@ class Home extends React.Component {
         return (
             <div id="home">
                 <TransparentNavbar/>
-                <BgSlider/>
+                <WelcomeScreen/>
+                {/*<BgSlider/>*/}
             </div>
         );
     }

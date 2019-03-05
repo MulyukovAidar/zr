@@ -11,7 +11,7 @@ import Footer from './molecules/Footer';
 import Home from './templates/Home';
 
 class App extends Component {
-  render() {
+    render() {
     return (
       <div className="App">
         <Home/>
