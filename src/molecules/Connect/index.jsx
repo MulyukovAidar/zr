@@ -12,19 +12,18 @@ const Connect = () => (
             <hr />
             <div className="col-md-4 col-12 pt-4">
                 <CallButton />
-                <OrderCall />
-
+                {/*<OrderCall />*/}
             </div>
             <div className="col-md-8 col-12 ">
                 <div className="row">
                     <div className="col-md-6 col-12">
                         <a href="https://vk.com/zrpremiumtobacco">
-                            <i class="fab fa-vk fa-5x mx-5 vk"></i>
+                            <i className="fab fa-vk fa-5x mx-5 vk"></i>
                         </a>
                     </div>
                     <div className="col-md-6 col-12">
                         <a href="https://www.instagram.com/zr_premium_lounge/">
-                            <i class="fab fa-instagram mx-5 fa-5x instagram"></i>
+                            <i className="fab fa-instagram mx-5 fa-5x instagram"></i>
                         </a>
                     </div>
                 </div>

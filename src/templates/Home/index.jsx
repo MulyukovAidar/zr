@@ -19,8 +19,8 @@ class Home extends React.Component {
         return (
             <div id="home">
                 <TransparentNavbar/>
-                <WelcomeScreen/>
-                {/*<BgSlider/>*/}
+                {/*<WelcomeScreen/>*/}
+                <BgSlider/>
             </div>
         );
     }

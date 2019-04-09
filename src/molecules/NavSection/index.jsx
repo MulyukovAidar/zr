@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 
 // import bootstrap;
-
+// NOT BEING USED !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 function NavSection() {
     return (
         <nav id="navbar" className="navbar navbar-expand-md bg-transparent sticky-top">
@@ -18,17 +18,17 @@ function NavSection() {
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active mx-lg-3">
-                            <a className="nav-link">
+                            <a className="nav-link navbar-collapse">
                                 В начало
                             </a>
                         </li>
                         <li className="nav-item mx-lg-3">
-                            <a className="nav-link">
+                            <a className="nav-link navbar-collapse">
                                 О компании
                             </a>
                         </li>
                         <li className="nav-item mx-lg-3">
-                            <a className="nav-link">
+                            <a className="nav-link navbar-collapse">
                                 Вкусовая палитра
                             </a>
                         </li>
